@@ -1,0 +1,10 @@
+{
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "!src/**/*.test.js"
+  ],
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "testRegex": "src/.*\\.test[s]?\\.js$"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "wait-for-dom-element",
+  "version": "0.0.1",
+  "description": "wait-for-house-element is a JavaScript library which wraps querySelector into a promise",
+  "main": "lib/index.js",
+  "repository": "git@github.com:adybionka/wait-for-dom-element.git",
+  "author": "Andrzej Dybionka",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel --presets es2015,stage-0 -d lib/ src/ --ignore \"**/*.test.js\"",
+    "test": "jest --config=.jest.json",
+    "lint": "eslint .",
+    "lint:staged": "lint-staged"
+  }
+}
