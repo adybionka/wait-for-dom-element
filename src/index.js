@@ -12,7 +12,7 @@ export default function querySelector(selectors, customOptions) {
   return new Promise((resolve, reject) => {
     const timeout = setTimeout(
       () => {
-        constlearInterval(checkInterval);
+        clearInterval(checkInterval);
         clearTimeout(timeout);
         reject(Error('Getting element timeout'));
       },
