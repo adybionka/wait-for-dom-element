@@ -1,6 +1,6 @@
 {
   "name": "wait-for-dom-element",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "wait-for-house-element is a JavaScript library which wraps querySelector into a promise",
   "main": "lib/index.js",
   "repository": "git@github.com:adybionka/wait-for-dom-element.git",
