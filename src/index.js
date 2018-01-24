@@ -1,4 +1,5 @@
-const defaultOptions = {
+export const error = Error('Getting element timeout');
+export const defaultOptions = {
   frequencyOfChecking: 200,
   timeout: 15000,
 };
@@ -14,7 +15,7 @@ export default function querySelector(selectors, customOptions) {
       () => {
         clearInterval(checkInterval);
         clearTimeout(timeout);
-        reject(Error('Getting element timeout'));
+        reject(error);
       },
       options.timeout
     );

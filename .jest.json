@@ -6,5 +6,8 @@
   "moduleDirectories": [
     "node_modules"
   ],
-  "testRegex": "src/.*\\.test[s]?\\.js$"
+  "testRegex": "src/.*\\.test[s]?\\.js$",
+  "setupFiles": [
+      "test-bundler.js"
+  ]
 }

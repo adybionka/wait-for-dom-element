@@ -3,4 +3,5 @@ src
 .eslintrc
 .eslintrc.json
 .jest
+test-bundler.js
 package-lock.json
